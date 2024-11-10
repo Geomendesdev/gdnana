@@ -20,15 +20,16 @@
 
     .quote-container {
         background: rgba(255, 240, 245, 0.9); /* Fundo levemente rosa */
-        padding: 15px;
-        width: auto; /* Ajuste automático */
-        border-radius: 15px;
-        box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-        transition: transform 0.3s ease, background 0.3s ease;
-        cursor: pointer;
-        text-align: center;
-        max-width: none; /* Remove a largura máxima */
-        min-width: 200px; /* Largura mínima para frases pequenas */
+            padding: 15px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, background 0.3s ease;
+            cursor: pointer;
+            text-align: center;
+            min-width: 200px; /* Largura mínima para frases pequenas */
+            display: inline-block;
+            max-width: 100%; /* Ajuste automático */
+            margin: 10px;
     }
 
     .quote {
